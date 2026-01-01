@@ -88,7 +88,7 @@ async def on_ready():
         status=discord.Status.dnd,
         activity=discord.Activity(
             type=discord.ActivityType.watching,
-            name="everything"
+            name="Everything"
         )
     )
     print("EXECUTOR ONLINE")
@@ -226,3 +226,4 @@ async def on_message(message):
 # RUN
 # =========================
 bot.run(TOKEN)
+
